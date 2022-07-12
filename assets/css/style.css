@@ -58,3 +58,117 @@ img {
     grid-template-columns: 2fr 1fr;
   }
 }
+
+/* ESTILOS 2DO NAV -- CHRISTIAN M. */ 
+
+.nav2-section {
+  padding: 0 80px;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container div {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #EEEEEE;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.search-container div input {
+  border: none;
+  height: 80%;
+}
+
+.bx-search {
+  font-size: 20px;
+  color: #dddddd;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-container h1 {
+  font-size: 48px;
+  letter-spacing: 10px;
+}
+
+.social-container {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media {
+  font-size: 32px;
+  color: #dddddd;
+  cursor: pointer;
+}
+
+.second-section {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.bx-home-alt-2 {
+  font-size: 24px;
+}
+
+.second-section span {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 1260px) {
+  .nav2-section {
+    padding: 0 40px;
+  }
+  .title-container h1 {
+    font-size: 32px;
+    letter-spacing: 5px;
+  }
+  .social-container {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .first-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .second-section {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+  }
+}
+
+/* ESTILOS 2DO NAV TERMINADO -- CHRISTIAN M.*/ 
