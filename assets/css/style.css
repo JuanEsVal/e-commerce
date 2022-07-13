@@ -186,3 +186,19 @@ img {
 }
 
 /* IMAGEN PRINCIPAL TERMINADO -- JOSE SALINAS*/
+
+
+/* -----  INICIO --  Segunda linea responsiva de imagenes: Juan Valencia */
+.img__second__line {
+  display: inline-flex;
+  width: 91vw;
+  margin-top: 1%;
+}
+.first__img {
+  margin-left: 8.7vw;
+  margin-right: 1vw;
+}
+.second__img{
+  margin-right: 1vw;
+}
+/* -----  FIN --  Segunda linea responsiva de imagenes: Juan Valencia */
