@@ -172,3 +172,15 @@ img {
 }
 
 /* ESTILOS 2DO NAV TERMINADO -- CHRISTIAN M.*/ 
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  width: 950px;
+  
+}
