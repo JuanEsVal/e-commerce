@@ -268,3 +268,57 @@ img {
   font-size: .7rem;
   margin:0 auto;
 }
+
+/* Estilos del footer / Bruno Gongora*/
+
+.seccion_footer{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: left;
+  height: 30vh;
+  align-items: center;
+}
+
+.buscador_y_boton img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.buscador_y_boton{
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.input{
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.icono{
+  margin: 0px 6px;
+}
+
+.icono:hover{
+  cursor: pointer;
+}
+
+.izquierda{
+  padding-left: 1rem;
+}
+
+.izquierda p {
+  margin-bottom: 1rem;
+  
+}
+
+.derecha h2{
+  margin-bottom: 1rem;
+}
+
+.derecha li{
+  font-size: 0.8rem;
+}
+
+
