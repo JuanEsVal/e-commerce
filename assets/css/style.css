@@ -31,7 +31,7 @@ img {
   grid-auto-rows: 1fr;
 }
 
-.productos {
+/* .productos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-template-rows: 1fr;
@@ -51,7 +51,7 @@ img {
 
 .cuerpo__tarjeta {
   padding: 20px;
-}
+} */
 
 @media (min-width: 768px) {
   .contenedor__principal {
@@ -205,7 +205,7 @@ img {
 
 /* card Bebidas */
 
-.productos-bebidas {
+.productos{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -215,7 +215,7 @@ img {
 }
 
 
-.cardBebidas {
+.card {
   width: 200px;
   height: 290px;
   border: 1px solid rgb(176, 176, 176);
@@ -227,43 +227,38 @@ img {
   transform: scale(1.05);
 }
 
-.cardBebidas img {
+.card img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
 }
 
-.imgCardBebidas {
+.imgCard {
   width: 195px;
   height: 200px;
   margin: 0 auto;
   border: 1px solid rgb(155, 155, 155);
 }
 
-.cardtitlebebida {
+.cardTitle {
   display: flex;
   justify-content: space-between;
 }
 
-.contenidoCardBebida h2 {
+.contenidoCard h2 {
   font-size: .7rem;
 }
-
-.contenidoCardBebida .titlepreciocardbebida {
-  text-align: right;
-}
-
-.contenidoCardBebida p {
+.contenidoCard p {
   font-size: .7rem;
   padding-bottom: 10px;
   margin: 0 auto;
 }
 
-.contenidoCardBebida span {
+.contenidoCard span {
   color: rgb(101, 101, 101);
 }
 
-.buttonAddBebidas button {
+.buttonAdd button {
   width: 50%;
   height: 25px;
   background: linear-gradient(90deg, rgba(208, 208, 208, 1) 0%, rgba(131, 131, 131, 1) 32%, rgba(93, 93, 93, 1) 100%);
