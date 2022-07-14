@@ -70,7 +70,40 @@ const productos = [
     imagen: './assets/img/glass.png',
     categoria: 'bebidas',
     cantidad: 15
+  },
+  {
+    id: 10,
+    nombre: 'Pepsi',
+    precio: 10.00,
+    imagen: '/assets/img/pepsi.png',
+    categoria: 'bebidas',
+    cantidad: 20
+  },
+  {
+    id: 11,
+    nombre: 'Coca Cola',
+    precio: 12.00,
+    imagen: '/assets/img/cocacola.png',
+    categoria: 'bebidas',
+    cantidad: 15
+  },
+  {
+    id: 12,
+    nombre: 'Granizado de Mora',
+    precio: 15.00,
+    imagen: '/assets/img/mora-1.jpg',
+    categoria: 'bebidas',
+    cantidad: 15
+  },
+  {
+    id: 13,
+    nombre: 'Limonada',
+    precio: 9.00,
+    imagen: '/assets/img/granizado.jpg',
+    categoria: 'bebidas',
+    cantidad: 15
   }
+  
 ]
 
 export default productos

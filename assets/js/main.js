@@ -2,6 +2,7 @@ import pintarProductos from './components/productos.js'
 import { pintarArticulos, agregarArticulo, removerArticulo, removerTodo, vaciarCarrito, comprar, articulos } from './components/carrito.js'
 
 const productosContenedor = document.getElementById('productosContenedor')
+const bebidasContenedor = document.getElementById('bebidasContenedor')
 const articulosContenedor = document.getElementById('articulosContenedor')
 
 const btnsAcciones = document.getElementById('btnsAcciones')
@@ -14,6 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
   pintarArticulos()
 
   productosContenedor.addEventListener('click', (e) => {
+    const target = e.target
+    if (target.classList.contains('agregar')) {
+      const id = target.dataset.id
+      agregarArticulo(+id, 1)
+    }
+
+    pintarArticulos()
+  })
+
+  bebidasContenedor.addEventListener('click', (e) => {
     const target = e.target
     if (target.classList.contains('agregar')) {
       const id = target.dataset.id
