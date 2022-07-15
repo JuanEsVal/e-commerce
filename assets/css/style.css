@@ -190,16 +190,13 @@ img {
 
 /* -----  INICIO --  Segunda linea responsiva de imagenes: Juan Valencia */
 .img__second__line {
-  display: inline-flex;
-  width: 91vw;
-  margin-top: 1%;
+  display: flex;
+  justify-content:center;
+  padding-top: 5px;
+  margin: 0 auto;
 }
-.first__img {
-  margin-left: 8.7vw;
-  margin-right: 1vw;
-}
-.second__img{
-  margin-right: 1vw;
+.second__line__img {
+  width: 475px;  
 }
 /* -----  FIN --  Segunda linea responsiva de imagenes: Juan Valencia */
 
