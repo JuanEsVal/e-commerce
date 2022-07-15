@@ -64,18 +64,10 @@ const productos = [
     cantidad: 14
   },
   {
-    id: 9,
-    nombre: 'Jugo',
-    precio: 11.00,
-    imagen: './assets/img/glass.png',
-    categoria: 'bebidas',
-    cantidad: 15
-  },
-  {
     id: 10,
     nombre: 'Pepsi',
     precio: 10.00,
-    imagen: './assets/img/pepsi.png',
+    imagen: './assets/img/pepsi_.jpg',
     categoria: 'bebidas',
     cantidad: 20
   },
@@ -83,7 +75,7 @@ const productos = [
     id: 11,
     nombre: 'Coca Cola',
     precio: 12.00,
-    imagen: './assets/img/cocacola.png',
+    imagen: '/assets/img/cocacola_.jpg',
     categoria: 'bebidas',
     cantidad: 15
   },

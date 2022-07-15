@@ -20,6 +20,7 @@ img {
 }
 
 .cabezera {
+  padding-top: 60px;
   max-width: 1040px;
   margin: 0 auto;
 }
@@ -35,9 +36,14 @@ img {
   grid-auto-rows: 1fr; */
 }
 
+.contenedor__productos{
+  padding-top: 40px;
+  padding-left: 80px;
+}
+
 @media (min-width: 768px) {
   .contenedor__principal {
-    /* grid-template-columns: 2fr 1fr; */
+    grid-template-columns: 2fr 1fr;
   }
 }
 
@@ -215,7 +221,7 @@ img {
 
 /* card Bebidas */
 
-.productos {
+.productos {  
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
