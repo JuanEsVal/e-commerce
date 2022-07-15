@@ -19,18 +19,23 @@ function pintarArticulos () {
     const { id, nombre, imagen, precio, cantidad } = productoFiltrado
 
     html += `
-    <div>
-    <img src="${imagen}" alt="${nombre}">
-    <div>
-      <h2>${nombre} - $ ${articulo.cantidad * precio} x${articulo.cantidad}</h2>
-      <button class="remover" type="button" data-id="${id}">-</button>
-      <span>${articulo.cantidad}</span>
-      <button class="agregar" type="button" data-id="${id}">+</button>
-      <div>
-        <button class="removerTodo" type="eliminar" data-id="${id}">eliminar</button>
+    <div class="card-carrito">
+      <img src="${imagen}" alt="${nombre}">
+      <div class="descriptionCardCarrito">
+        <div class="descripcionCarrito">
+          <h2>${nombre}</h2>
+          <h2>$ ${articulo.cantidad * precio}</h2>
+        </div>
+        <div class="btnsAddRemove">
+        <button class="remover btnRCarrito" type="button" data-id="${id}">Remove</i></button>
+        <span>${articulo.cantidad}</span>
+        <button class="agregar btnRCarrito" type="button" data-id="${id}">Add</button>
+        <div>
+          <button class="removerTodo btnRCarrito" type="eliminar" data-id="${id}">eliminar</button>
+        </div>
+        </div>
       </div>
-    </div>
-  </div>  
+    </div>  
     `
   }
 
