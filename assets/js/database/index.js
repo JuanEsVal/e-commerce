@@ -3,7 +3,7 @@ const productos = [
     id: 1,
     nombre: 'Hamburguesa',
     precio: 18.00,
-    imagen: './assets/img/hamburger.png',
+    imagen: '/assets/img/hanburguer_.jpg',
     categoria: 'aperitivos',
     cantidad: 22
   },
@@ -11,7 +11,7 @@ const productos = [
     id: 2,
     nombre: 'Papas Fritas',
     precio: 12.00,
-    imagen: './assets/img/french-fries.png',
+    imagen: './assets/img/french-fries_.jpg',
     categoria: 'aperitivos',
     cantidad: 18
   },
@@ -19,7 +19,7 @@ const productos = [
     id: 3,
     nombre: 'Hot-Dog',
     precio: 16.00,
-    imagen: './assets/img/hot_dog.png',
+    imagen: './assets/img/hot_dog_.jpg',
     categoria: 'aperitivos',
     cantidad: 13
   },
@@ -27,7 +27,7 @@ const productos = [
     id: 4,
     nombre: 'Sandwich',
     precio: 15.00,
-    imagen: './assets/img/sandwich.png',
+    imagen: './assets/img/sandwich_.jpg',
     categoria: 'aperitivos',
     cantidad: 16
   },
@@ -35,7 +35,7 @@ const productos = [
     id: 5,
     nombre: 'Donas',
     precio: 10.00,
-    imagen: './assets/img/donut.png',
+    imagen: './assets/img/donut_.jpg',
     categoria: 'aperitivos',
     cantidad: 24
   },
@@ -43,7 +43,7 @@ const productos = [
     id: 6,
     nombre: 'Nuguets',
     precio: 14.00,
-    imagen: './assets/img/chicken_leg.png',
+    imagen: './assets/img/chicken_leg_.jpg',
     categoria: 'aperitivos',
     cantidad: 20
   },
@@ -51,7 +51,7 @@ const productos = [
     id: 7,
     nombre: 'Soda en Vaso',
     precio: 15.00,
-    imagen: './assets/img/soda_cup.png',
+    imagen: './assets/img/soda_cup_.jpg',
     categoria: 'bebidas',
     cantidad: 18
   },
@@ -59,7 +59,7 @@ const productos = [
     id: 8,
     nombre: 'Soda en Lata',
     precio: 13.00,
-    imagen: './assets/img/soda.png',
+    imagen: './assets/img/soda_.jpg',
     categoria: 'bebidas',
     cantidad: 14
   },
