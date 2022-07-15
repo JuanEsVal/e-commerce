@@ -269,7 +269,7 @@ img {
   margin:0 auto;
 }
 
-/* Estilos del footer / Bruno Gongora*/
+/* Estilos del footer / Bruno Gongora / Snyder Bolaños*/ 
 
 .seccion_footer{
   background-color: rgb(0, 0, 0);
@@ -305,7 +305,7 @@ img {
 }
 
 .izquierda{
-  padding-left: 1rem;
+  padding-left: 5rem;
 }
 
 .izquierda p {
@@ -321,4 +321,34 @@ img {
   font-size: 0.8rem;
 }
 
+.centro {
+  font-size: 0.8rem;
+}
+.centro {
+  padding-left: 5rem;
+}
+.centro h2{
+  margin-bottom: 1rem;
+}
+.centro li{
+  font-size: 0.8rem;
+}
+.tres {
+  font-size: 0.8rem;
+}
+.tres {
+  padding-left: 5rem;
+}
+.tres {
+  font-size: 0.8rem;
+}
+.logo {
+  font-size: 0.8rem;
+}
+.logo {
+  margin-bottom: 1rem;
+}
+.logo {
+  padding-left: 5rem;
+}
 
