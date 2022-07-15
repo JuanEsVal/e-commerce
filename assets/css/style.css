@@ -58,7 +58,25 @@ img {
     grid-template-columns: 2fr 1fr;
   }
 }
-
+/* ESTILOS NAV 1-- LUIS DAVID F.. */ 
+.nav1-section{
+  list-style: none;
+  padding: 0 220px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.primary-section{
+  max-width: 1040px;
+  width: 60%;
+  height: 60px;
+  display: block;
+  color: white;
+  line-height: 2;
+  
+}
 /* ESTILOS 2DO NAV -- CHRISTIAN M. */ 
 
 .nav2-section {
