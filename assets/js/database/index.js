@@ -94,6 +94,14 @@ const productos = [
     imagen: './assets/img/granizado.jpg',
     categoria: 'bebidas',
     cantidad: 15
+  },
+  {
+    id: 14,
+    nombre: 'Postre',
+    precio: 25.00,
+    imagen: './assets/img/flan.jpg',
+    categoria: 'aperitivos',
+    cantidad: 10
   }
   
 ]
